@@ -5,12 +5,16 @@ main {
     padding: 33px 36px 36px 36px;
     color: white;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+
 }
 
 .top:before {
@@ -34,8 +38,8 @@ main {
     align-items: center;
     text-align: left;
     font-size: 4.8rem;
-    /* justify-content: space-evenly; */
     flex-direction: column;
+    margin: 4rem;
 
 }
 
@@ -55,11 +59,17 @@ main {
 }
 
 .top-right {
-    margin: 2.5rem;
+    display: flex;
     position: relative;
     z-index: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .top-full {
     margin: 5rem;
+}
+
+@media (max-width: 600px){
+
 }

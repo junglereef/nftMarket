@@ -3,7 +3,7 @@ header {
     z-index: 2;
     margin: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -18,7 +18,7 @@ nav {
     color: white;
     display: flex;
     margin-top: 1.5rem;
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
 }
 
 nav .nav-item {
