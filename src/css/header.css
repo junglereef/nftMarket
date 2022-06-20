@@ -1,0 +1,36 @@
+/* header styles */
+header {
+    z-index: 2;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo-container img {
+    width: 48px;
+    height: 48px;
+}
+
+/* nav styles */
+
+nav {
+    color: white;
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 30rem;
+}
+
+nav .nav-item {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+}
+
+.contact-btn {
+    padding: 0.5rem;
+    margin-left: -2rem
+}
+

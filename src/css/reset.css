@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-size: 62.5%;
+    background-color: #131F2F;
+    height: 100%;
+    width: 100%;
+  }
+
+  #page {
+    /* height: 100%; */
+    width: 100%;
+    font-family: 'Oxanium';
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: #1C121F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
