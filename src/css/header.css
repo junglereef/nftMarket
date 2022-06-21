@@ -29,9 +29,11 @@ header .contact-btn {
 /* nav styles */
 
 nav {
+    
     color: white;
     display: flex;
     margin-top: 1.5rem;
+    font-size: 1.5rem;
     /* margin-left: 30rem; */
 }
 
