@@ -1,0 +1,109 @@
+main {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 33px 36px 36px 36px;
+    color: white;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top:before {
+    position: absolute;
+    top: 0;
+    left: 70rem;
+    right: 0;
+    bottom: -50px;
+    background-color: #583540;
+    z-index: -1;
+    content: '';
+}
+
+
+.line-break {
+    width: 100%;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 4.8rem;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.top-left-info {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.top-left-info-buttons button {
+    padding: 1.5rem;
+    margin: 5rem;
+}
+
+.top-left-info-call {
+    width: 2rem;
+}
+
+.top-right {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.top-full {
+    margin: 5rem;
+}
+
+section div p {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+
+.explore-btn {
+    width: 200px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 28px;
+    background: #FFCE4E;
+}
+
+.create-btn {
+    width: 200px;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+/*LIVE AUCTIONS */ 
+
+.subtitulo{
+font-family: 'Oxanium';
+font-weight: 700;
+font-size: 64px;
+line-height: 130px;
+}
+
+
+
+@media (max-width: 600px) {}

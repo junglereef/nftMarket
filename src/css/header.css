@@ -1,0 +1,73 @@
+/* header styles */
+header {
+    z-index: 2;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 37px;
+    padding-right: 137px;
+    padding-left: 80px;
+}
+
+header .logo-container img {
+    width: 48px;
+    height: 48px;
+}
+
+header .contact-btn {
+    padding: 21px 29px 22px 30px;
+    border: none;
+    background: #E9D7A71A;
+    border: 1px solid #FFCE4E;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFCE4E;
+}
+
+/* nav styles */
+
+nav {
+    
+    color: white;
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    /* margin-left: 30rem; */
+}
+
+nav .nav-item {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+}
+
+nav div {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.contact-btn {
+    padding: 0.5rem;
+    margin-left: -2rem
+}
+
+#explore {
+    color:#FFCE4E;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+button{
+    top: 38px;
+}
