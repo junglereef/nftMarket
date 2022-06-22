@@ -96,8 +96,8 @@ section div p {
 
 
 /*LIVE AUCTIONS */ 
-
-.subtitulo{
+ 
+.subtitle {
 font-family: 'Oxanium';
 font-weight: 700;
 font-size: 64px;
@@ -108,6 +108,38 @@ line-height: 130px;
     display: flex;
 }
 
+/* HOW IT WORKS */
+
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    top: 50px;
+    bottom: 20px;
+}
+
+.works div {
+    padding-left: 58px;
+    padding-right: 58px;
+} 
+
+.works p {
+    font-family: "Work Sans";
+    color: #FFCE4E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize
+}
+
+
+
+
+
+
+
 @media (max-width: 600px) {
 
     .top:before {
@@ -115,3 +147,5 @@ line-height: 130px;
     }
 
 }
+
+
