@@ -11,8 +11,8 @@ header {
 }
 
 header .logo-container img {
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: auto;
 }
 
 header .contact-btn {

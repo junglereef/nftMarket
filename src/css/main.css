@@ -105,11 +105,11 @@ main {
     display: flex;
 }
 
-.subtitle-auctions h2 {
+.subtitle {
     font-family: 'Oxanium';
     font-weight: 700;
-    font-size: 64px;
-    line-height: 130px;
+    font-size: 6rem;
+    line-height: 14rem;
 }
 
 .place-a-bid {
@@ -192,11 +192,36 @@ main {
 /* HOW IT WORKS */
 .works {
     display: flex;
+    align-items: center;
 }
+
+.work-arrow img{
+width: 10rem;
+height: auto;
+}
+
+/* .works-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}  */
+
+
 .works-box img {
     height: auto;
-    width: 35%;
+    width: 50%;
 }
+
+.work-arrow {
+    height: auto;
+    /* height: auto; */
+    /* width: 0.5rem; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: 0.5rem; */
+}
+
+ 
 
 /* 
     
