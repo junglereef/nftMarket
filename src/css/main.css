@@ -190,6 +190,8 @@ main {
     border: 1px solid #FFCE4E
 }
 
+
+/*  BUTTON VIEW ALL  */
 .btn-view{
     font-family: 'Work Sans';
     font-style: normal;
@@ -239,7 +241,15 @@ height: auto;
     /* margin: 0.5rem; */
 }
 
- 
+.works p {
+    font-family: "Work Sans";
+    color: #FFCE4E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+} 
 
 /* 
     
@@ -255,15 +265,7 @@ height: auto;
     padding-right: 58px;
 } 
 
-.works p {
-    font-family: "Work Sans";
-    color: #FFCE4E;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: capitalize
-} */
+
 
 
 
