@@ -1,13 +1,13 @@
 main {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 3rem;
+    align-items: center;
     color: white;
-    z-index: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
 }
 
 .top {
@@ -17,14 +17,14 @@ main {
 }
 
 .top:before {
-    position: absolute;
-    top: 0;
-    left: 70rem;
-    right: 0;
-    bottom: -10rem;
     background-color: #E9D7A71A;
-    z-index: -1;
+    bottom: -15rem;
     content: '';
+    left: 70rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
 }
 
 
@@ -33,27 +33,28 @@ main {
 }
 
 .top-left {
-    display: flex;
     align-items: center;
-    text-align: left;
-    font-size: 4.8rem;
+    display: flex;
     flex-direction: column;
+    font-size: 4.8rem;
     margin: 4rem;
+    text-align: left;
 }
 
 .top-left-info {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: stretch;
 }
 
 .top-left-info-buttons button:first-child {
     color: black;
 }
+
 .top-left-info-buttons button {
-    padding: 1.5rem;
-    margin: 5rem;
     color: white;
+    margin: 5rem;
+    padding: 1.5rem;
 }
 
 .top-left-info-call {
@@ -62,10 +63,10 @@ main {
 
 .top-right {
     display: flex;
-    position: relative;
-    z-index: 0;
     justify-content: center;
     margin-top: 5rem;
+    position: relative;
+    z-index: 0;
 }
 
 .top-full {
@@ -74,28 +75,28 @@ main {
 
 .top-left p {
     font-family: 'Oxanium';
+    font-size: 5.2rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 5.2rem;
     line-height: 10rem;
     padding-left: 1rem;
 }
 
 .explore-btn {
-    width: 200px;
-    font-family: 'Work Sans';
-    font-weight: 600;
-    font-size: 28px;
     background: #FFCE4E;
+    font-family: 'Work Sans';
+    font-size: 28px;
+    font-weight: 600;
+    width: 200px;
 }
 
 .create-btn {
-    width: 200px;
     background: rgba(233, 215, 167, 0.1);
     border: 1px solid #FFCE4E;
     font-family: 'Work Sans';
-    font-weight: 600;
     font-size: 28px;
+    font-weight: 600;
+    width: 200px;
 }
 
 
@@ -107,40 +108,67 @@ main {
 
 .subtitle {
     font-family: 'Oxanium';
-    font-weight: 700;
     font-size: 6rem;
+    font-weight: 700;
     line-height: 14rem;
 }
 
+.subtitle-live {
+    font-family: 'Oxanium';
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 14rem;
+}
+
+.subtitle-live:before {
+    background-repeat: no-repeat;
+    background: linear-gradient(#8613A5, #8613A5) bottom/2px 50%, #8613A5;
+    border-radius: 50%;
+    content: "";
+    height: 10rem;
+    left: 42rem;
+    position: absolute;
+    top: 96rem;
+    width: 10rem;
+    z-index: -1;
+}
+
+.circle {
+    background: red;
+    border-radius: 50%;
+    height: auto;
+    width: 20rem;
+}
+
 .place-a-bid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 2rem;
     background-color: #3D2942;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem;
 }
 
 .art-container img {
-    width: 100%;
     height: auto;
     padding: 2rem;
+    width: 100%;
 }
 
 .art-container .timer {
-    top: -4.8rem;
-    left: 2rem;
-    width: 10rem;
-    position: relative;
     background-image: linear-gradient(0.34turn, #8613A5 85%, #FAFAFA);
+    left: 2rem;
+    position: relative;
+    top: -4.8rem;
+    width: 10rem;
 }
 
 .container-info {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -4rem;
     padding: 1rem;
     width: 98%;
-    margin-top: -4rem;
 }
 
 .favorite-icon {
@@ -156,8 +184,8 @@ main {
 .price-info {
     display: flex;
     justify-content: space-evenly;
-    width: inherit;
     margin-top: 2rem;
+    width: inherit;
 }
 
 .btn-place {
@@ -166,8 +194,8 @@ main {
 }
 
 .creator-1 {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .creator-1 img {
@@ -182,42 +210,42 @@ main {
 
 .btn-place button {
     background-color: #E9D7A71A;
-    width: 20rem;
-    height: 5rem;
-    margin-bottom: 2rem;
+    border: 1px solid #FFCE4E;
     color: white;
     font-size: large;
-    border: 1px solid #FFCE4E
+    height: 5rem;
+    margin-bottom: 2rem;
+    width: 20rem;
 }
 
 
 /*  BUTTON VIEW ALL  */
-.btn-view{
+.btn-view {
+    align-items: center;
+    background-color: transparent;
+    border: 0.2rem solid #FFCE4E;
+    color: #F5FBF2;
+    display: flex;
     font-family: 'Work Sans';
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
     letter-spacing: 0.05em;
-    display: flex;
-    align-items: center;
-    color: #F5FBF2;
-    border: 1px solid #FFCE4E;
-    background-color: transparent;
-    padding: 24px 65px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    line-height: 3.2rem;
+    margin-bottom: 4.8rem;
+    margin-top: 8rem;
+    padding: 2.2rem 6.2rem;
 }
 
 /* HOW IT WORKS */
 .works {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
-.work-arrow img{
-width: 10rem;
-height: auto;
+.work-arrow img {
+    height: auto;
+    width: 10rem;
 }
 
 /* .works-box{
@@ -234,42 +262,17 @@ height: auto;
 
 .work-arrow {
     height: auto;
-    /* height: auto; */
-    /* width: 0.5rem; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* margin: 0.5rem; */
 }
 
 .works p {
-    font-family: "Work Sans";
     color: #FFCE4E;
+    font-family: "Work Sans";
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
-} 
-
-/* 
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    top: 50px;
-    bottom: 20px;
-} */
-/* 
-.works div {
-    padding-left: 58px;
-    padding-right: 58px;
-} 
-
-
-
-
-
-
+}
 
 
 
@@ -280,5 +283,3 @@ height: auto;
     }
 
 }
-
-

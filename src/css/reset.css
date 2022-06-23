@@ -14,7 +14,7 @@
   #page {
     /* height: 100%; */
     width: 100%;
-    font-family: 'Oxanium';
+    font-family: 'Oxanium', 'Work Sans', Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
     background-color: #1C121F;
