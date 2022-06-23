@@ -187,6 +187,24 @@ main {
     margin-bottom: 2rem;
     color: white;
     font-size: large;
+    border: 1px solid #FFCE4E
+}
+
+.btn-view{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    color: #F5FBF2;
+    border: 1px solid #FFCE4E;
+    background-color: transparent;
+    padding: 24px 65px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 /* HOW IT WORKS */
