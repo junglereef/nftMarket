@@ -102,8 +102,9 @@ main {
 
 /*LIVE AUCTIONS */
 
-.auctions {
+.auctions-carrosel {
     display: flex;
+    flex-direction: row;
 }
 
 .subtitle {
@@ -237,37 +238,40 @@ main {
     padding: 2.2rem 6.2rem;
 }
 
+.view-all-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 /* HOW IT WORKS */
 .works {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
 }
 
 .work-arrow img {
     height: auto;
     width: 10rem;
+    margin: 5rem;
 }
-
-/* .works-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}  */
-
 
 .works-box img {
     height: auto;
-    width: 50%;
+    width: 11rem;
 }
 
 .work-arrow {
+    align-items: center;
+    display: flex;
     height: auto;
 }
 
 .works p {
     color: #FFCE4E;
     font-family: "Work Sans";
-    font-size: 24px;
+    font-size: 2.1rem;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
