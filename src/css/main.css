@@ -278,6 +278,17 @@ main {
     text-transform: capitalize;
 }
 
+/*TOP CREATORS */ 
+
+#creators-img{
+    width: 35%;
+}
+
+
+#creators-img-4{
+    border-radius: 50%;
+    width: 35%;
+}
 
 
 @media (max-width: 600px) {
