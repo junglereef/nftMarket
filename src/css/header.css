@@ -7,6 +7,24 @@ header {
     z-index: 2;
 }
 
+#explore a {
+    color:#FFCE4E;
+    font-family: 'Work Sans';
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 21px;
+}
+
+.top-menu a {
+   color:#F5FBF2; 
+   font-family: 'Work Sans';
+   font-size: 2rem;
+   font-weight: 500;
+   letter-spacing: 0.02em;
+   line-height: 21px;
+}
+
 .top-menu {
     display: flex;
     justify-content: space-around;
@@ -31,7 +49,6 @@ header .contact-btn {
 /* nav styles */
 
 nav {
-    
     color: white;
     display: flex;
     font-size: 1.5rem;
@@ -56,20 +73,15 @@ nav div {
     line-height: 21px;
 }
 
+
+
 .contact-btn {
     margin-left: -2rem;
     padding: 0.5rem;
 }
 
-#explore {
-    color:#FFCE4E;
-    font-family: 'Work Sans';
-    font-size: 2rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 21px;
-}
-
 button{
     top: 38px;
 }
+
+
