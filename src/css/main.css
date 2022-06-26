@@ -39,7 +39,7 @@ main {
 }
 
 .intro__text--left p {
-    line-height: 10rem ;
+    line-height: 10rem;
 }
 
 .intro__info--left {
@@ -60,7 +60,7 @@ main {
 
 .intro__info--leftCall {
     margin-left: 5rem;
-    
+
 }
 
 .intro--right {
@@ -127,7 +127,12 @@ main {
     position: relative;
 }
 
-.subtitle--text, .collections__subtitle--text, .categories__subtitle--text, .creators__subtitle--text, .newsletter__subtitle--text .map__subtitle--text, .newsletter__subtitle--text{
+.subtitle--text,
+.collections__subtitle--text,
+.categories__subtitle--text,
+.creators__subtitle--text,
+.newsletter__subtitle--text .map__subtitle--text,
+.newsletter__subtitle--text {
     font-family: 'Oxanium';
     font-size: 6rem;
     font-weight: 700;
@@ -151,11 +156,12 @@ main {
 
 .next__buttons img {
     height: auto;
-    width: 4rem;
     margin-right: 2rem;
+    width: 4rem;
 }
 
-.cards__carrosel, .categories__cards {
+.cards__carrosel,
+.categories__cards {
     display: flex;
     flex-direction: row;
 }
@@ -242,7 +248,8 @@ main {
 
 
 /*  BUTTON VIEW ALL  */
-.cards__btn--viewall, .creators__btn--viewall {
+.cards__btn--viewall,
+.creators__btn--viewall {
     align-items: center;
     background-color: transparent;
     border: 0.2rem solid #FFCE4E;
@@ -259,7 +266,8 @@ main {
     padding: 2.2rem 6.2rem;
 }
 
-.cards__viewAll--button, .creators__viewAll--button{
+.cards__viewAll--button,
+.creators__viewAll--button {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -267,15 +275,14 @@ main {
 
 /* HOW IT WORKS */
 .works {
-    /* align-items: center; */
     display: flex;
     margin-bottom: 4rem;
 }
 
 .work-arrow img {
     height: auto;
-    width: 10rem;
     margin: 5rem;
+    width: 10rem;
 }
 
 .work-box img {
@@ -302,20 +309,22 @@ main {
 .map {
     margin-bottom: 4rem;
 }
-/*TOP CREATORS */ 
 
-#creators-img{
+/*TOP CREATORS */
+
+#creators-img {
     width: 35%;
 }
 
-#creators-img-4{
+#creators-img-4 {
     border-radius: 50%;
     width: 35%;
 }
 
 /*POPULAR COLLECTIONS*/
 
-.subtitle__circle--red{
+.collections__circle--red,
+.creators_circle--red {
     background-repeat: no-repeat;
     background: linear-gradient(red, red) bottom/2px 50%, red;
     border-radius: 50%;
@@ -343,7 +352,7 @@ main {
 
 /*EXPLORE BY CATEGORIES */
 
-.categories__subtitle--purple{
+.categories__subtitle--purple {
     background-repeat: no-repeat;
     background: linear-gradient(purple, purple) bottom/2px 50%, purple;
     border-radius: 50%;
@@ -356,7 +365,7 @@ main {
     z-index: -1;
 }
 
-.container__card > div > button {
+.container__card>div>button {
     position: relative;
     top: -20rem;
 }
@@ -367,7 +376,7 @@ main {
     margin-bottom: 2rem;
 }
 
-.card__spacer{
+.card__spacer {
     margin: 2rem;
 }
 
@@ -387,7 +396,7 @@ main {
     width: 15rem;
 }
 
-.categories__subtitle{
+.categories__subtitle {
     margin-bottom: -6rem;
 }
 
@@ -396,7 +405,12 @@ main {
     flex-direction: row;
     align-items: center;
 }
+
 /*CREATORS SECTION*/
+
+.creators__subtitle--text {
+    margin-bottom: -6rem;
+}
 
 .creators__container {
     display: flex;
@@ -411,32 +425,42 @@ main {
     padding: 2rem;
     background-color: #3D2942;
     margin: 2rem;
+    border-left: solid;
+    border-color: red;
 }
 
-.creators__data{
+.creators__data {
     padding: 2rem;
     border-left: solid;
     border-color: #96839B;
 }
-/*READY FOR NEXT NFT DROP  */ 
 
-.subscribe-btn{
-    font-family: Work Sans;
-    font-weight: 700;
-    font-size: 22px;
-    width: 244px;
-    height: 90px;
-    border: none;
-    background: #E7B226;
-    border: 1px solid #E7B226;
+.creators_circle--red {
+    left: 36rem;
+    top: -6rem;
+    left: 38rem;
 }
 
-.newsletter div{
-    border: 1px solid #E7B226;
+
+/*READY FOR NEXT NFT DROP  */
+
+.subscribe-btn {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 24rem;
+    height: 9rem;
+    border: none;
+    background: #E7B226;
+    border: 0.1rem solid #E7B226;
+}
+
+.newsletter div {
+    border: 0.1rem solid #E7B226;
     display: flex;
-    width: 650px;
-    height: 90px;
-    border: 1px solid #E7B226;
+    width: 65rem;
+    height: 9rem;
+    border: 0.1rem solid #E7B226;
 }
 
 .newsletter div input {
@@ -448,11 +472,11 @@ main {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    padding: 0 56px;
+    font-size: 2rem;
+    padding: 0 5.2rem;
 }
 
-.newsletter{
+.newsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -462,53 +486,89 @@ main {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
     color: #A48EA9;
 }
 
 /* FOOTER */
 
-footer{
-    align-items: center;
-    display: flex;
+footer {
     background-color: #251928;
-}
-
-.logo-nft{
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
+.footer__main {
 
-#ntf-footer-logo{
-    width: 190px;
+    color: #96839B;
+    display: flex;
+    flex-direction: row;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    padding:  10rem 5rem;
+
+
+}
+
+.social-links a:link {
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+.social-links img {
+    width: auto;
+    height: 3rem;
+    margin: 2rem;
+}
+
+#ntf-footer-logo {
     height: auto;
-    padding-left: 80px;
-    padding-top: 115px;
+    width: 20rem;
+
 }
 
-.social-links{
+.social-links {
     display: flex;
-    width: 10px;
-    padding-top: 60px;
+    padding-top: 6rem;
+    width: 0.1rem;
 }
 
-.footer-left {
+.footer__left {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 51px;
+    padding: 0 4rem;
 }
 
-.footer-left h2 {
-    font-family: "Work Sans";
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: 36px;
-    color: #96839B;
-    padding-top: 115px;
+.footer__left h2 {
+    line-height: 2.5rem;
     text-decoration: none;
 }
 
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.about-us-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+}
+.footer__center li, .footer__right li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+.footer__center h2, .footer__right h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
 
 @media (max-width: 600px) {
 
