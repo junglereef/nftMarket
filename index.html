@@ -50,9 +50,9 @@
             </section>
 
             <section class="cards">
-                <div class="subtitle__auctions">
-                    <h2 class="subtitle__auctions--text">Live Auctions</h2>
-                    <div class="subtitle__circle--purple"></div>
+                <div class="auctions__subtitle">
+                    <h2 class="auctions__subtitle--text">Live Auctions</h2>
+                    <div class="auctions__circle--purple"></div>
                     <div class="next__buttons">
                         <img src="./src/images/bi_arrow-down-circle-fill_white_left.png" alt="arrow left">
                         <img src="./src/images/bi_arrow-down-circle-fill_right.png" alt="arrow right">
@@ -62,7 +62,7 @@
                 <!-- CARROSEL-->
                 <div class="cards__carrosel">
                     <div class="card">
-                        <div class="card__container">
+                        <div class="container__card">
                             <img src="./src/images/virtual-art-1.png" id="art-01-img" alt="image Card NFT 1">
                             <p class="timer">03:18:24</p>
                         </div>
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="card">
-                        <div class="card__container">
+                        <div class="container__card">
                             <img src="./src/images/virtual-art-2.png" id="art-01-img" alt="image Card NFT 1">
                             <p class="timer">03:18:24</p>
                         </div>
@@ -122,7 +122,7 @@
 
 
                     <div class="card">
-                        <div class="card__container">
+                        <div class="container__card">
                             <img src="./src/images/virtual-art-3.png" id="art-01-img" alt="image Card NFT 1">
                             <p class="timer">03:18:24</p>
                         </div>
@@ -158,7 +158,7 @@
 
             <section class="map">
                 <div class="subtitle">
-                    <h2 class="subtitle--text">How it Works</h2>
+                    <h2 class="map__subtitle--text">How it Works</h2>
                 </div>
 
                 <div class="works">
@@ -193,18 +193,18 @@
             </section>
 
             <section class="collections">
-                <div class="subtitle__collections">
-                    <h2 class="subtitle--text">Popular Collections</h2>
+                <div class="collections__subtitle">
+                    <h2 class="collections__subtitle--text">Popular Collections</h2>
                     <div class="subtitle__circle--red"></div>
                 </div>
                 <!-- CARROSEL-->
                 <div class="cards__carrosel">
                     <div class="card">
-                        <div class="card__container">
+                        <div class="container__card">
                             <img src="./src/images/collection-img-1.png" alt="Art Collection by @wzard">
                         </div>
 
-                        <div class="card__collection">
+                        <div class="collection__card">
                             <div class="icon-creator">
                                 <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
                             </div>
@@ -221,11 +221,11 @@
 
                     </div>
                     <div class="card">
-                        <div class="card__container">
+                        <div class="container__card">
                             <img src="./src/images/collection-img-2.png" alt="Art Collection by @wzard">
                         </div>
 
-                        <div class="card__collection">
+                        <div class="collection__card">
                             <div class="icon-creator">
                                 <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
                             </div>
@@ -242,11 +242,11 @@
 
                     </div>
                     <div class="card">
-                        <div class="card__container">
-                            <img src="./src/images/collection-img-3.png" alt="Art Collection by @wzard">
+                        <div class="container__card">
+                            <img src="./src/images/collection-img-1.png" alt="Art Collection by @wzard">
                         </div>
 
-                        <div class="card__collection">
+                        <div class="collection__card">
                             <div class="icon-creator">
                                 <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
                             </div>
@@ -262,9 +262,9 @@
 
 
                     </div>
-                  
+
                 </div>
-                
+
 
                 <div class="cards__viewAll--button">
                     <button class="cards__btn--viewall">View All</button>
@@ -272,97 +272,100 @@
             </section>
 
             <section class="categories">
-                <div class="subtitle-categories">
-                    <h2 class="subtitle--text">Explore By Categories</h2>
+                <div class="categories__subtitle">
+                    <h2 class="categories__subtitle--text">Explore By Categories</h2>
                 </div>
 
-                <div>
-                    <div>
-                        <div>
+                <div class="categories__cards">
+
+                    <div class="card">
+                        <div class="container__card">
                             <img src="./src/images/categories-img-1.png" alt="Categories Image Number 1">
-                            <button class="card__btn">Place a Bid</button>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <img src="./src/images/creator-img-3.png" alt="Creator icon">
-                            <div>
-                                <h3>Virtual Art</h3>
-                                <p>by @wzard</p>
+                            <div class="card__bid">
+                                <button class="card__btn--bid">Place a Bid</button>
                             </div>
                         </div>
 
-                        <div>
-                            <img src="./src/images/heart-icon.png" alt="heart icon image">
-                            <p>92</p>
+                        <div class="card__info--active">
+                            <div class="card__creator">
+                                <img src="./src/images/creator-img-3.png" alt="Creator icon">
+                                <div class="categories__creatorName">
+                                    <h3>Virtual Art</h3>
+                                    <p>by @wzard</p>
+                                </div>
+
+                            </div>
+
+                            <div class="card__favorite">
+                                <img src="./src/images/heart-icon.png" alt="heart icon image">
+                                <p>92</p>
+                            </div>
+                        </div>
+
+                        <div class="card__bid">
+                            <h3>Current Bid</h3>
+                            <p>4.89 ETH</p>
                         </div>
                     </div>
 
-                    <div>
-                        <h3>Current Bid</h3>
-                        <p>4.89 ETH</p>
-                    </div>
-
-                </div>
-
-                <div>
-                    <div>
-                        <div>
+                    <div class="card">
+                        <div class="container__card">
                             <img src="./src/images/categories-img-2.png" alt="Categories Image Number 1">
-                            <button class="card__btn">Place a Bid</button>
                         </div>
-                    </div>
 
-                    <div>
-                        <div>
-                            <img src="./src/images/creator-img-3.png" alt="Creator icon">
-                            <div>
-                                <h3>Virtual Art</h3>
-                                <p>by @wzard</p>
+                        <div class="card__spacer">
+                        </div>
+
+                        <div class="card__info">
+                            <div class="card__creator">
+                                <img src="./src/images/creator-img-3.png" alt="Creator icon">
+                                <div>
+                                    <h3>Virtual Art</h3>
+                                    <p>by @wzard</p>
+                                </div>
+                            </div>
+
+                            <div class="card__favorite">
+                                <img src="./src/images/heart-icon.png" alt="heart icon image">
+                                <p>92</p>
                             </div>
                         </div>
 
-                        <div>
-                            <img src="./src/images/heart-icon.png" alt="heart icon image">
-                            <p>92</p>
+                        <div class="card__bid">
+                            <h3>Current Bid</h3>
+                            <p>4.89 ETH</p>
                         </div>
                     </div>
 
-                    <div>
-                        <h3>Current Bid</h3>
-                        <p>4.89 ETH</p>
-                    </div>
+                    <div class="card">
 
-                </div>
-                <div>
-                    <div>
-                        <div>
+                        <div class="container__card">
                             <img src="./src/images/categories-img-3.png" alt="Categories Image Number 1">
-                            <button class="card__btn">Place a Bid</button>
                         </div>
-                    </div>
 
-                    <div>
-                        <div>
-                            <img src="./src/images/creator-img-3.png" alt="Creator icon">
-                            <div>
-                                <h3>Virtual Art</h3>
-                                <p>by @wzard</p>
+                        <div class="card__spacer">
+                        </div>
+
+                        <div class="card__info">
+                            <div class="card__creator">
+                                <img src="./src/images/creator-img-3.png" alt="Creator icon">
+                                <div>
+                                    <h3>Virtual Art</h3>
+                                    <p>by @wzard</p>
+                                </div>
+                            </div>
+
+                            <div class="card__favorite">
+                                <img src="./src/images/heart-icon.png" alt="heart icon image">
+                                <p>92</p>
                             </div>
                         </div>
 
-                        <div>
-                            <img src="./src/images/heart-icon.png" alt="heart icon image">
-                            <p>92</p>
+                        <div class="card__bid">
+                            <h3>Current Bid</h3>
+                            <p>4.89 ETH</p>
                         </div>
                     </div>
-
-                    <div>
-                        <h3>Current Bid</h3>
-                        <p>4.89 ETH</p>
-                    </div>
-
                 </div>
                 <div class="cards__viewAll--button">
                     <button class="cards__btn--viewall">View All</button>
@@ -370,8 +373,8 @@
             </section>
 
             <section class="creators">
-                <div class="subtitle-creators">
-                    <h2 class="subtitle--text">Top Creators</h2>
+                <div class="creators__subtitle">
+                    <h2 class="subtitle__creators--text">Top Creators</h2>
                 </div>
 
                 <div creators-container>
@@ -437,7 +440,7 @@
             </section>
 
             <section class="newsletter">
-                <h2 class="subtitle--text">Ready for Next NFT Drop?</h2>
+                <h2 class="newsletter__subtitle--text">Ready for Next NFT Drop?</h2>
             </section>
 
         </main>

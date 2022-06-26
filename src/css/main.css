@@ -82,7 +82,7 @@ main {
 }
 
 .line-break {
-    height: 5rem;
+    height: 2rem;
     width: 100%;
 }
 
@@ -105,49 +105,46 @@ main {
 
 /* SECTIONS TITLES */
 
-.subtitle__auctions {
+.auctions__subtitle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.subtitle__collections {
+.collections__subtitle {
     margin-bottom: -6rem;
 }
 
 
-.subtitle__auctions--text {
+.auctions__subtitle--text {
     font-family: 'Oxanium';
     font-size: 6rem;
     font-weight: 700;
     line-height: 14rem;
-    left: 50rem;
+    left: 40rem;
     position: relative;
 }
 
-.subtitle--text {
+.subtitle--text, .collections__subtitle--text, .categories__subtitle--text, .subtitle__creators--text, .newsletter__subtitle--text .map__subtitle--text, .newsletter__subtitle--text{
     font-family: 'Oxanium';
     font-size: 6rem;
     font-weight: 700;
     line-height: 14rem;
 }
 
-.subtitle__circle--purple:before {
+.auctions__circle--purple:before {
     background-repeat: no-repeat;
     background: linear-gradient(#8613A5, #8613A5) bottom/2px 50%, #8613A5;
     border-radius: 50%;
     content: "";
     height: 10rem;
-    left: 50rem;
+    left: 40rem;
     position: absolute;
-    top: 102rem;
+    top: 98rem;
     width: 10rem;
     z-index: -1;
 }
-
-
-
 
 /*LIVE AUCTIONS */
 
@@ -157,12 +154,10 @@ main {
     margin-right: 2rem;
 }
 
-.cards__carrosel {
+.cards__carrosel, .categories__cards {
     display: flex;
     flex-direction: row;
 }
-
-
 
 .card {
     background-color: #3D2942;
@@ -172,13 +167,13 @@ main {
     margin: 2rem;
 }
 
-.card__container img {
+.container__card img {
     height: auto;
     padding: 2rem;
     width: 100%;
 }
 
-.card__container .timer {
+.container__card .timer {
     background-image: linear-gradient(0.34turn, #8613A5 85%, #FAFAFA);
     left: 2rem;
     position: relative;
@@ -196,13 +191,15 @@ main {
 }
 
 .card__favorite {
+    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .card__favorite img {
-    height: auto;
-    width: 5rem;
+    height: 3rem;
+    margin-right: 1rem;
+    width: auto;
 }
 
 .card__price {
@@ -331,19 +328,65 @@ main {
     z-index: -1;
 }
 
-.card__collection {
+.collection__card {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
     margin-bottom: 2rem;
 }
 
-.card__collection img {
+.collection__card img {
     height: auto;
     width: 8rem;
 }
 
+/*EXPLORE BY CATEGORIES */
+
+.categories__subtitle--red{
+    background-repeat: no-repeat;
+    background: linear-gradient(red, red) bottom/2px 50%, red;
+    border-radius: 50%;
+    content: "";
+    height: 10rem;
+    left: 30rem;
+    position: relative;
+    top: -12rem;
+    width: 10rem;
+    z-index: -1;
+}
+
+.container__card > div > button {
+    position: relative;
+    top: -20rem;
+}
+
+.card__bid {
+display: flex;
+justify-content: space-around;
+margin-bottom: 2rem;
+
+}
+
+.card__spacer{
+    margin: 2rem;
+}
+
+.card__info--active {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -7rem;
+    padding: 1rem;
+    width: 98%;
+}
+
+.card__btn--bid {
+    background: #FFCE4E;
+    font-size: large;
+    height: 5rem;
+    width: 15rem;
+}
 /*READY FOR NEXT NFT DROP  */ 
 
 .subscribe-btn{
