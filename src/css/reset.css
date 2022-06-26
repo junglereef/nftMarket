@@ -28,3 +28,8 @@
     display:grid;
     grid-template-rows: min-content auto min-content;
   }
+
+  a:link{
+    text-decoration: none;
+    color: inherit;
+  }

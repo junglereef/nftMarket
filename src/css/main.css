@@ -59,7 +59,8 @@ main {
 }
 
 .intro__info--leftCall {
-    margin-left: 10rem;
+    margin-left: 5rem;
+    
 }
 
 .intro--right {
@@ -126,7 +127,7 @@ main {
     position: relative;
 }
 
-.subtitle--text, .collections__subtitle--text, .categories__subtitle--text, .subtitle__creators--text, .newsletter__subtitle--text .map__subtitle--text, .newsletter__subtitle--text{
+.subtitle--text, .collections__subtitle--text, .categories__subtitle--text, .creators__subtitle--text, .newsletter__subtitle--text .map__subtitle--text, .newsletter__subtitle--text{
     font-family: 'Oxanium';
     font-size: 6rem;
     font-weight: 700;
@@ -241,7 +242,7 @@ main {
 
 
 /*  BUTTON VIEW ALL  */
-.cards__btn--viewall {
+.cards__btn--viewall, .creators__btn--viewall {
     align-items: center;
     background-color: transparent;
     border: 0.2rem solid #FFCE4E;
@@ -258,7 +259,7 @@ main {
     padding: 2.2rem 6.2rem;
 }
 
-.cards__viewAll--button {
+.cards__viewAll--button, .creators__viewAll--button{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -307,7 +308,6 @@ main {
     width: 35%;
 }
 
-
 #creators-img-4{
     border-radius: 50%;
     width: 35%;
@@ -343,13 +343,13 @@ main {
 
 /*EXPLORE BY CATEGORIES */
 
-.categories__subtitle--red{
+.categories__subtitle--purple{
     background-repeat: no-repeat;
-    background: linear-gradient(red, red) bottom/2px 50%, red;
+    background: linear-gradient(purple, purple) bottom/2px 50%, purple;
     border-radius: 50%;
     content: "";
     height: 10rem;
-    left: 30rem;
+    left: 26rem;
     position: relative;
     top: -12rem;
     width: 10rem;
@@ -362,10 +362,9 @@ main {
 }
 
 .card__bid {
-display: flex;
-justify-content: space-around;
-margin-bottom: 2rem;
-
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 .card__spacer{
@@ -386,6 +385,38 @@ margin-bottom: 2rem;
     font-size: large;
     height: 5rem;
     width: 15rem;
+}
+
+.categories__subtitle{
+    margin-bottom: -6rem;
+}
+
+.collection__card--left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*CREATORS SECTION*/
+
+.creators__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.creators__box {
+    flex: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #3D2942;
+    margin: 2rem;
+}
+
+.creators__data{
+    padding: 2rem;
+    border-left: solid;
+    border-color: #96839B;
 }
 /*READY FOR NEXT NFT DROP  */ 
 
@@ -477,8 +508,6 @@ footer{
     padding-top: 115px;
     text-decoration: none;
 }
-
-
 
 
 @media (max-width: 600px) {

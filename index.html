@@ -15,15 +15,17 @@
 <body>
     <section id="page">
         <header>
-            <div class="logo-container">
-                <img src="./src/images/logo-image.png" alt="Logo NFT Marketplace">
+            <div class="top-menu">
+                <div class="logo-container">
+                    <img src="./src/images/logo-image.png" alt="Logo NFT Marketplace">
+                </div>
+                <nav class="navigation">
+                    <div class="nav-item" id="explore"><a href="#">Explore</a></div>
+                    <div class="nav-item"><a href="#">Creators</a></div>
+                    <div class="nav-item"><a href="#">Community</a></div>
+                </nav>
+                <button class="contact-btn" type="button"><a href="#">Conect Wallet</a></button>
             </div>
-            <nav>
-                <div class="nav-item" id="explore">Explore</div>
-                <div class="nav-item">Creators</div>
-                <div class="nav-item">Community</div>
-            </nav>
-            <button class="contact-btn" type="button">Conect Wallet</button>
         </header>
         <main>
             <section class="intro">
@@ -209,11 +211,11 @@
                                 <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
                             </div>
                             <div class="collection__name">
-                                <h2>@wzard</h2>
+                                <h3>@wzard</h3>
                             </div>
 
                             <div class="collection__id">
-                                <h2>ERC-721</h2>
+                                <h3>ERC-721</h3>
                             </div>
 
                         </div>
@@ -230,11 +232,11 @@
                                 <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
                             </div>
                             <div class="collection__name">
-                                <h2>@wzard</h2>
+                                <h3>@wzard</h3>
                             </div>
 
                             <div class="collection__id">
-                                <h2>ERC-721</h2>
+                                <h3>ERC-721</h3>
                             </div>
 
                         </div>
@@ -247,15 +249,16 @@
                         </div>
 
                         <div class="collection__card">
-                            <div class="icon-creator">
-                                <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
+                            <div class="collection__card--left">
+                                <div class="icon-creator">
+                                    <img src="./src/images/creator-img-2.png" alt="Photo by user @wzard">
+                                </div>
+                                <div class="collection__name">
+                                    <h3>@wzard</h3>
+                                </div>
                             </div>
-                            <div class="collection__name">
-                                <h2>@wzard</h2>
-                            </div>
-
                             <div class="collection__id">
-                                <h2>ERC-721</h2>
+                                <h3>ERC-721</h3>
                             </div>
 
                         </div>
@@ -274,6 +277,7 @@
             <section class="categories">
                 <div class="categories__subtitle">
                     <h2 class="categories__subtitle--text">Explore By Categories</h2>
+                    <div class="categories__subtitle--purple"></div>
                 </div>
 
                 <div class="categories__cards">
@@ -374,68 +378,70 @@
 
             <section class="creators">
                 <div class="creators__subtitle">
-                    <h2 class="subtitle__creators--text">Top Creators</h2>
+                    <h2 class="creators__subtitle--text">Top Creators</h2>
                 </div>
 
-                <div creators-container>
-                    <div class="creators-cards">
-                        <div>
+                <div class="creators__container">
+                    <div class="creators__box">
+                        <div class="creators__profile">
                             <img id="creators-img" src="./src/images/creator-img.png" alt="">
-                            <div>
+                            <div class="creator_name">
                                 <h4>Wzard Dee</h4>
                                 <p>4.89 ETH</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="creators__data">
                             <h4>33</h4>
                             <p>Items</p>
                         </div>
                     </div>
 
-                    <div class="creators-cards">
-                        <div>
+                    <div class="creators__box">
+                        <div class="creators__profile">
                             <img id="creators-img" src="./src/images/creator-img-2.png" alt="">
-                            <div>
+                            <div class="creator_name">
                                 <h4>Wzard Dee</h4>
                                 <p>4.89 ETH</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="creators__data">
                             <h4>33</h4>
                             <p>Items</p>
                         </div>
                     </div>
 
-                    <div class="creators-cards">
-                        <div>
+                    <div class="creators__box">
+                        <div class="creators__profile">
                             <img id="creators-img" src="./src/images/creator-img-3.png" alt="">
-                            <div>
+                            <div class="creator_name">
                                 <h4>Wzard Dee</h4>
                                 <p>4.89 ETH</p>
                             </div>
                         </div>
-                        <div>
-                            <h4>33</h4>
+                        <div class="creators__data">
+                            <h4>88</h4>
                             <p>Items</p>
                         </div>
                     </div>
 
-                    <div class="creators-cards">
-                        <div>
-                            <img id="creators-img-4" src="./src/images/creator-img-4.png" alt="">
-                            <div>
+                    <div class="creators__box">
+                        <div class="creators__profile">
+                            <img id="creators-img" src="./src/images/creator-img-3.png" alt="">
+                            <div class="creator_name">
                                 <h4>Wzard Dee</h4>
                                 <p>4.89 ETH</p>
                             </div>
                         </div>
-                        <div>
-                            <h4>33</h4>
+                        <div class="creators__data">
+                            <h4>88</h4>
                             <p>Items</p>
                         </div>
                     </div>
+
                 </div>
-                <div>
-                    <button class="cards__btn--viewall">View All</button>
+
+                <div class="creators__viewAll--button">
+                    <button class="creators__btn--viewall">View All</button>
                 </div>
             </section>
 
@@ -453,7 +459,7 @@
 
     <footer>
         <div class="logo_nft">
-            <img  id="ntf-footer-logo" src="./src/images/footer-logo.png" alt="Logo NFT Marketplace ">
+            <img id="ntf-footer-logo" src="./src/images/footer-logo.png" alt="Logo NFT Marketplace ">
         </div>
 
         <div class="footer-left">
@@ -467,7 +473,7 @@
             <p>All rights reserved@2021</p>
         </div>
 
-        <div class="about-us-list"> 
+        <div class="about-us-list">
             <h2>About us</h2>
             <ul>
                 <li>About NFTs</li>
@@ -477,7 +483,7 @@
             </ul>
         </div>
 
-        <div class="support-list"> 
+        <div class="support-list">
             <h2>Support</h2>
             <ul>
                 <li>Help & Support</li>

@@ -5,7 +5,11 @@ header {
     justify-content: space-between;
     margin: 2rem;
     z-index: 2;
-   
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
 }
 
 header .logo-container img {
@@ -21,6 +25,7 @@ header .contact-btn {
     font-size: 2rem;
     font-weight: 600;
     padding: 2rem 3rem 2rem 3rem;
+    margin: 1rem;
 }
 
 /* nav styles */
@@ -31,7 +36,7 @@ nav {
     display: flex;
     font-size: 1.5rem;
     margin-left: 30rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 
 nav .nav-item {
