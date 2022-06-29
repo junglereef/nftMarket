@@ -99,7 +99,7 @@ main {
     background: rgba(233, 215, 167, 0.1);
     border: 1px solid #FFCE4E;
     font-family: 'Work Sans';
-    font-size: 28px;
+    font-size: 3rem;
     font-weight: 600;
     width: 200px;
 }
@@ -440,7 +440,6 @@ main {
     top: -6rem;
     left: 38rem;
 }
-
 
 /*READY FOR NEXT NFT DROP  */
 
