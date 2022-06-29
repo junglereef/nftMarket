@@ -14,14 +14,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 10rem;
 }
 
 /*Intro Image Background*/
 .intro:before {
     background-color: #E9D7A71A;
-    bottom: -18rem;
+    bottom: -10rem;
     content: '';
-    left: 70rem;
+    left: 80rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -46,6 +47,7 @@ main {
     align-items: center;
     display: flex;
     justify-content: stretch;
+    align-items: flex-start;
 }
 
 .intro__info--leftButtons button:first-child {
@@ -59,8 +61,22 @@ main {
 }
 
 .intro__info--leftCall {
-    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
 
+}
+
+.counter__text--big > p {
+    font-size:5rem; 
+    height:5rem; 
+    font-weight: 700;
+    margin: 0 4rem;
+
+}
+
+.counter__desc{
+   font-size:1.5rem;
+   margin-left: 6rem;
 }
 
 .intro--right {
@@ -80,21 +96,29 @@ main {
 
 } 
 
-.intro--full div {
-    color: #896E6E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 70px;
-}
 
-.intro--left p {
-    font-family: 'Oxanium';
+
+.intro--left {
+    display: flex;
+    /* font-family: 'Oxanium';
     font-size: 5.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 10rem;
-    padding-left: 1rem;
+    padding-left: 1rem; */
+    
+}
+.intro--full div {
+    color: #896E6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+
+}
+.intro__logos{
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .line-break {
@@ -600,5 +624,17 @@ footer {
 @media (max-width: 1280px) and (min-width: 601px) {
     .intro:before {
         display:none
+    }
+    .intro--full div {
+        color: #896E6E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .intro__logos{
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
