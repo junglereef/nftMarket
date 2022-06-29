@@ -14,6 +14,7 @@
   #page {
     /* height: 100%; */
     background-color: #1C121F;
+    border:none;
     display: flex;
     flex-direction: column;
     font-family: 'Oxanium', 'Work Sans', Arial, Helvetica, sans-serif;
