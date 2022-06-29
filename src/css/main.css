@@ -441,7 +441,6 @@ main {
     left: 38rem;
 }
 
-
 /*READY FOR NEXT NFT DROP  */
 
 .subscribe-btn {
@@ -570,6 +569,7 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* RESPONSIVO */
 @media (max-width: 600px) {
 
     .top:before {
