@@ -46,6 +46,16 @@ header .contact-btn {
     margin: 1rem;
 }
 
+/* menu hambuguer  */
+#burguer{
+    color: #FFCE4E;
+    display: none;
+}
+
+#menu-toggle{
+    display: none;
+}
+
 /* nav styles */
 
 nav {
@@ -73,8 +83,6 @@ nav div {
     line-height: 21px;
 }
 
-
-
 .contact-btn {
     margin-left: -2rem;
     padding: 0.5rem;
@@ -84,7 +92,11 @@ button{
     top: 38px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+
+    .navigation, .contact-btn {
+        display: none;
+    }
     .menu-button-container {
         display: flex;
     }
@@ -126,5 +138,59 @@ button{
 
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
+    }
+    
+    #burguer{
+        color: #FFCE4E;
+        display: block;
+        width: 2rem;
+        height: auto;
+    }
+    
+    #menu-toggle{
+        display: none;
+    }
+
+    .top-menu {
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem 5rem;
+        
+    }
+
+    header {
+        background-color: #444;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 1279px) and (min-width: 601px) {
+
+    .navigation, .contact-btn {
+        display: none;
+    }
+
+    #burguer{
+        color: #FFCE4E;
+        display: block;
+        width: 2rem;
+        height: auto;
+    }
+    
+    #menu-toggle{
+        display: none;
+    }
+
+    .top-menu {
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem 5rem;
+        
+    }
+
+    header {
+        background-color: #444;
+        margin: 0;
     }
 }

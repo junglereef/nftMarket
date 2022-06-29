@@ -70,7 +70,22 @@ main {
 }
 
 .intro--full {
-    margin: 5rem;
+    margin: 0px 3rem;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.intro--full img {
+    width: 30%;
+
+} 
+
+.intro--full div {
+    color: #896E6E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
 }
 
 .intro--left p {
@@ -150,6 +165,7 @@ main {
     top: 98rem;
     width: 10rem;
     z-index: -1;
+    display:none;
 }
 
 /*LIVE AUCTIONS */

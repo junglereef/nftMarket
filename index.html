@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Marketplace</title>
+    <script src="https://kit.fontawesome.com/8fa21178e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/css/fonts.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/header.css">
 </head>
 
-<body>
+<body> 
+    
     <section id="page">
         <header>
             <div class="top-menu">
-                 <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
                 <div class="logo-container">
                     <img src="./src/images/logo-image.png" alt="Logo NFT Marketplace">
                 </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                    <i id="burguer" class="fa-solid fa-bars fa-2xl"></i>
+                </label>
                 <nav class="navigation">
                     <div class="nav-item" id="explore"><a href="#">Explore</a></div>
                     <div class="nav-item"><a href="#">Creators</a></div>
@@ -42,16 +45,31 @@
                             <button class="create__btn" type="button">Create</button>
                             <div class="intro__info--leftCall ">
                                 <img src="./src/images/top-counter.png" alt="counters" width="450px">
+                                <p> <span style="font-size:5rem; height: 0.5rem; margin-bottom: 1rem;"> 32k+</span></br> <span style="font-size:1.5rem">Artworks</span></p>
+                                <p> <span style="font-size:5rem"> 20k+</p></span>
+                                <p> <span style="font-size:5rem"> 12k+</p></span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="intro--right">
+                    
                     <img src="./src/images/front-highlight.png" alt="banner" width="420px" height="460px">
                 </div>
                 <div class="line-break"></div>
                 <div class="intro--full">
-                    <img src="./src/images/highlight-bottom.png" alt="sponsors" width="100%">
+                    
+                    <div>
+                        <img class="coinbase-icon" src="./src/images/coinbase-img.png" alt="Coinbase logo">
+                    
+                        <img class="blockchain-icon" src="./src/images/blockchain-img.png" alt="Blockchain logo">
+                    
+                        <img class="binance-icon" src="./src/images/binance-img.png" alt="Binance logo">
+                    
+                        <img class="bitmax-icon" src="./src/images/bitmex-img.png" alt="BitMex logo">
+
+                    </div>
+
                 </div>
             </section>
 
