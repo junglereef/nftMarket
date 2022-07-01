@@ -137,7 +137,7 @@ button{
     }
 
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid #251928;
     }
     
     #burguer{
@@ -159,7 +159,7 @@ button{
     }
 
     header {
-        background-color: #444;
+        background-color: #251928;
         margin: 0;
     }
 }
@@ -190,7 +190,7 @@ button{
     }
 
     header {
-        background-color: #444;
+        background-color: #251928;
         margin: 0;
     }
 }

@@ -22,7 +22,7 @@ main {
     background-color: #E9D7A71A;
     bottom: -10rem;
     content: '';
-    left: 80rem;
+    left: 75rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -45,6 +45,7 @@ main {
     margin-left: -6rem;
 }
 
+
 .intro__info--leftButtons button:first-child {
     color: black;
 }
@@ -61,17 +62,17 @@ main {
 
 }
 
-.counter__text--big > p {
-    font-size:5rem; 
-    height:5rem; 
+.counter__text--big>p {
+    font-size: 5rem;
+    height: 5rem;
     font-weight: 700;
     margin: 0 4rem;
 
 }
 
-.counter__desc{
-   font-size:1.5rem;
-   margin-left: 6rem;
+.counter__desc {
+    font-size: 1.5rem;
+    margin-left: 6rem;
 }
 
 .intro--right {
@@ -87,13 +88,17 @@ main {
 
 .intro--full {
     display: flex;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 
 
 .intro--left {
     display: flex;
+}
+
+.intro__flex-items img {
+    width: 36rem;
 }
 
 .line-break {
@@ -125,11 +130,13 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position:relative;
+    margin: 4rem;
 }
 
-.collections__subtitle {
+/* .collections__subtitle {
     margin-bottom: -6rem;
-}
+} */
 
 
 .auctions__subtitle--text {
@@ -137,8 +144,15 @@ main {
     font-size: 6rem;
     font-weight: 700;
     line-height: 14rem;
-    /* left: 40rem;
-    position: relative; */
+    position: absolute;
+    left: 40rem;
+}
+
+.creators__subtitle,
+.collections__subtitle,
+.creators__subtitle,
+.categories__subtitle {
+    position: relative;
 }
 
 .subtitle--text,
@@ -164,7 +178,7 @@ main {
     top: 98rem;
     width: 10rem;
     z-index: -1;
-    display:none;
+    display: none;
 }
 
 /*LIVE AUCTIONS */
@@ -345,10 +359,14 @@ main {
     content: "";
     height: 10rem;
     left: 30rem;
-    position: relative;
-    top: -12rem;
+    position: absolute;
+    top: 2rem;
     width: 10rem;
     z-index: -1;
+}
+
+.creators_circle--red {
+    left: 40rem;
 }
 
 .collection__card {
@@ -366,15 +384,19 @@ main {
 
 /*EXPLORE BY CATEGORIES */
 
+.categories__subtitle {
+    position: relative;
+}
+
 .categories__subtitle--purple {
     background-repeat: no-repeat;
     background: linear-gradient(purple, purple) bottom/2px 50%, purple;
     border-radius: 50%;
     content: "";
     height: 10rem;
-    left: 26rem;
-    position: relative;
-    top: -12rem;
+    left: 25em;
+    position: absolute;
+    top: 2rem;
     width: 10rem;
     z-index: -1;
 }
@@ -410,9 +432,7 @@ main {
     width: 15rem;
 }
 
-.categories__subtitle {
-    margin-bottom: -6rem;
-}
+
 
 .collection__card--left {
     display: flex;
@@ -422,9 +442,9 @@ main {
 
 /*CREATORS SECTION*/
 
-.creators__subtitle--text {
-    margin-bottom: -6rem;
-}
+/* .creators__subtitle--text {
+  margin-bottom: -6rem; 
+} */
 
 .creators__container {
     display: flex;
@@ -449,12 +469,6 @@ main {
     border-color: #96839B;
 }
 
-.creators_circle--red {
-    left: 36rem;
-    top: -6rem;
-    left: 38rem;
-}
-
 /*READY FOR NEXT NFT DROP  */
 
 .subscribe-btn {
@@ -468,12 +482,13 @@ main {
     border: 0.1rem solid #E7B226;
 }
 
-.newsletter div {
+#newsletter__box {
     border: 0.1rem solid #E7B226;
     display: flex;
-    width: 65rem;
     height: 9rem;
-    border: 0.1rem solid #E7B226;
+    width: 65rem;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .newsletter div input {
@@ -508,19 +523,20 @@ main {
 
 footer {
     background-color: #251928;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100%; */
 }
 
 .footer__main {
 
     color: #96839B;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     font-family: "Work Sans";
     font-size: 1.5rem;
-    padding:  10rem 5rem;
+    padding: 5rem 5rem;
 
 
 }
@@ -549,10 +565,9 @@ footer {
 }
 
 .footer__left {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding: 0 4rem;
+    margin: 0 4rem;
 }
 
 .footer__left h2 {
@@ -568,17 +583,25 @@ footer {
 
 .about-us-list {
     align-items: center;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    width: 30rem;
+    flex-grow: 1;
 }
-.footer__center li, .footer__right li {
+
+.footer__center {
+    margin: 0 4rem;
+}
+
+.footer__center li,
+.footer__right li {
     list-style-type: none;
     margin-bottom: 2rem;
     text-decoration: none;
 }
-.footer__center h2, .footer__right h2 {
+
+.footer__center h2,
+.footer__right h2 {
     color: white;
     margin-bottom: 2rem;
 }
@@ -593,25 +616,60 @@ footer {
         display: none;
     }
 
-    .intro{
+    .intro {
         flex-direction: column;
     }
 
-    .counter-box {
-        position:absolute;
-        top: 115rem;
-        left:-3rem;
+    .intro__flex-items img {
+        width: 100%;
     }
 
-   .cards__carrosel,
-   .categories__card {
+    .counter-box {
+        display: none;
+    }
+
+    .auctions__subtitle--text{
+        position: relative;
+        left: 0;
+        top:0;
+    }
+
+    .subtitle--text,
+    .collections__subtitle--text,
+    .categories__subtitle--text,
+    .creators__subtitle--text,
+    .newsletter__subtitle--text .map__subtitle--text,
+    .newsletter__subtitle--text {
+        font-family: 'Oxanium';
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 14rem;
+    }
+
+    .cards__carrosel,
+    .categories__card,
+    .categories__cards {
         flex-basis: 50%;
-        position: relative;       
+        position: relative;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    .container__card{
+    .collections__circle--red,
+    .creators_circle--red .categories__subtitle--purple {
+        height: 10rem;
+        position: absolute;
+        width: 10rem;
+        z-index: -1;
+        top: 2rem;
+        left: 6rem;
+    }
+
+    .categories__subtitle--purple{
+        left: 5rem;
+    }
+
+    .container__card {
         flex: 1 0 50%;
     }
 
@@ -628,28 +686,57 @@ footer {
         flex: 1 0 50%;
     }
 
-    .works{
+    .works {
         flex-direction: column;
-        margin: 2rem;
+    }
+
+    .work-arrow {
+        transform: rotate(90deg);
+        margin: 6rem;
     }
 
     .creators__container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 60rem;
+        flex-basis: 6rem;
+    }
+
+    .creators_circle--red {
+        left: 5rem;
+    }
+
+    .newsletter {
+        display: none;
     }
 
     .footer__main {
-        padding: 2rem 2rem;
+        padding: 2rem 0rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__main>* {
+        margin: 2rem;
+
+    }
+
+    .footer__left {
+        order: 3
+    }
+
+    .logos--full {
+        display: none;
     }
 
 }
 
 @media (max-width: 1279px) and (min-width: 601px) {
     .intro:before {
-        display:none
+        display: none
     }
+
     .intro--full div {
         color: #896E6E;
         display: flex;
@@ -658,14 +745,17 @@ footer {
         gap: 5rem;
     }
 
-    .intro{
+    .intro {
         flex-direction: column;
     }
 
+    .intro__flex-items img {
+        width: 100%;
+    }
+
+
     .counter-box {
-        position:absolute;
-        top: 115rem;
-        left:8rem;
+        display: none;
     }
 
     /* .intro__flex-items > div:nth-child(3) {
@@ -675,6 +765,16 @@ footer {
         flex-wrap: wrap;
         width: 100%;
     } */
+
+    .auctions__subtitle--text{
+        position: relative;
+        left: 0;
+        top:0;
+    }
+
+    .categories__subtitle--purple{
+        left: 5rem;
+    }
 
     .logos {
         margin-top: 20rem;
@@ -690,9 +790,22 @@ footer {
         flex-direction: column;
     }
 
-    .cards__carrosel, .categories__cards {
+    .subtitle--text,
+    .collections__subtitle--text,
+    .categories__subtitle--text,
+    .creators__subtitle--text,
+    .newsletter__subtitle--text .map__subtitle--text,
+    .newsletter__subtitle--text {
+        font-family: 'Oxanium';
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 14rem;
+    }
+
+    .cards__carrosel,
+    .categories__cards {
         flex-basis: 50%;
-        position: relative;       
+        position: relative;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -711,16 +824,16 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         margin: 2rem;
-        
+
     }
 
-    .works{
+    .works {
         flex-direction: column;
     }
 
     .work-arrow {
         transform: rotate(90deg);
-        margin: 2rem;
+        margin: 8rem;
     }
 
     .creators__container {
@@ -730,10 +843,30 @@ footer {
         width: 60rem;
     }
 
-    .footer__main {
-        padding: 2rem 0rem;
+    .creators_circle--red {
+        left: 10rem;
     }
 
-    
+    .newsletter {
+        display: none;
+    }
+
+    .footer__main {
+        padding: 2rem 0rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__main>* {
+        margin: 2rem;
+
+    }
+
+    .footer__left {
+        order: 3
+    }
+
+
 
 }
