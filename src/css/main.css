@@ -660,38 +660,15 @@ footer {
         line-height: 14rem;
     }
 
-    .logos {
-        margin-top: 20rem;
+    .logos{
         display: flex;
-        flex-direction: column;
     }
 
     .logos--full {
         color: #896E6E;
-        display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .logos--images{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         flex-wrap: wrap;
-    }
-
-
-    .logos--full div img:nth-child(1){
-        width: 105px;
-    }
-    .logos--full div img:nth-child(2){
-        width: 170px;
-    }
-    .logos--full div img:nth-child(3){
-        width: 145px;
-    }
-    .logos--full div img:nth-child(4){
-        width: 115px;
     }
 
 
@@ -812,6 +789,22 @@ footer {
         width: 100%;
     } */
 
+    .logos{
+        margin-top: 55px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .logos--full {
+        color: #896E6E;
+        flex-wrap: wrap;
+        max-width: 550px;
+        gap: 100px;
+    }
+
+
     .auctions__subtitle--text{
         position: relative;
         left: 0;
@@ -820,20 +813,6 @@ footer {
 
     .categories__subtitle--purple{
         left: 5rem;
-    }
-
-    .logos {
-        margin-top: 20rem;
-        display: flex;
-    }
-
-    .logos--full div {
-        color: #896E6E;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* gap: 5rem; */
-        flex-direction: column;
     }
 
     .subtitle--text,
