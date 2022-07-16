@@ -62,7 +62,7 @@ header .contact-btn {
 
 /* nav styles */
 
-nav {
+#navigation {
     color: white;
     display: flex;
     font-size: 1.5rem;
@@ -98,7 +98,7 @@ button{
 
 @media (max-width: 600px) {
 
-    .navigation, .contact-btn {
+    #navigation, .contact-btn {
         display: none;
     }
     .menu-button-container {
@@ -157,7 +157,10 @@ button{
 
     .mobile-menu > *  {
         display: block;
-        position: relative;
+    }
+
+    .mobile-menu {
+        margin-top: 2rem;
     }
 
     #nav-mobile > *{
@@ -178,6 +181,7 @@ button{
         justify-content: space-between;
         align-items: center;
         margin: 5rem 5rem;
+        flex-direction: column
         
     }
 
@@ -190,15 +194,15 @@ button{
 
 @media (max-width: 1279px) and (min-width: 601px) {
 
-    .navigation, .contact-btn {
+    #navigation, .contact-btn {
         display: none;
     }
 
     #burguer{
         color: #FFCE4E;
         display: block;
-        width: 2rem;
-        height: auto;
+        /* width: 2rem;
+        height: auto; */
     }
     
     #menu-toggle{
@@ -211,7 +215,8 @@ button{
     }
 
     .mobile-menu{
-        position: relative;
+        margin-top: 2rem;
+        /* position: relative; */
         /* overflow: hidden; */
     }
     
@@ -221,13 +226,12 @@ button{
 
     .nav-mobile-item {
         display: block;
-        background: gray;
         width: 100%;
     }
 
     .nav-mobile-item a {
-        color: rgb(32, 2, 200);
-        padding: 4rem;
+        color: rgb(255, 255, 255);
+        padding-top: 4rem;
         display: block;
     }
 
@@ -235,6 +239,7 @@ button{
         justify-content: space-between;
         align-items: center;
         margin: 5rem 5rem;
+        flex-direction: row;
         
     }
 
