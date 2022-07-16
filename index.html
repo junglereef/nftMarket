@@ -21,10 +21,25 @@
                 <div class="logo-container">
                     <img src="./src/images/logo-image.png" alt="Logo NFT Marketplace">
                 </div>
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                    <div class='menu-button'></div>
-                    <i id="burguer" class="fa-solid fa-bars fa-2xl"></i>
+
+
+                <nav class="mobile-menu">
+                    <div class='menu-button'>
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i id="burguer" class="fa-solid fa-bars fa-2xl"></i>
+                            </a>
+                    </div>
+                    <div id="nav-mobile">
+                        <div class="nav-mobile-item"><a href="#">Explore</a></div>
+                        <div class="nav-mobile-item"><a href="#">Creators</a></div>
+                        <div class="nav-mobile-item"><a href="#">Community</a></div>
+                    </div>
+                </nav>
+
+
+
                 </label>
                 <nav class="navigation">
                     <div class="nav-item" id="explore"><a href="#">Explore</a></div>
@@ -73,7 +88,7 @@
                 </div>
                 <div class="intro__flex-items">
 
-                    <img src="./src/images/front-highlight.png" alt="banner" >
+                    <img src="./src/images/front-highlight.png" alt="banner">
                 </div>
                 <!-- <div class="line-break"></div> -->
 
@@ -82,13 +97,13 @@
             <section class="logos">
                 <div class="logos--full">
 
-                        <img class="logos--icon" src="./src/images/coinbase-img.png" alt="Coinbase logo">
+                    <img class="logos--icon" src="./src/images/coinbase-img.png" alt="Coinbase logo">
 
-                        <img class="logos--icon" src="./src/images/blockchain-img.png" alt="Blockchain logo">
+                    <img class="logos--icon" src="./src/images/blockchain-img.png" alt="Blockchain logo">
 
-                        <img class="logos--icon" src="./src/images/binance-img.png" alt="Binance logo">
+                    <img class="logos--icon" src="./src/images/binance-img.png" alt="Binance logo">
 
-                        <img class="logos--icon" src="./src/images/bitmex-img.png" alt="BitMex logo">
+                    <img class="logos--icon" src="./src/images/bitmex-img.png" alt="BitMex logo">
 
 
                 </div>
@@ -544,6 +559,7 @@
 
         </div>
     </footer>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>

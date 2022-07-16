@@ -20,7 +20,7 @@ main {
 /*Intro Image Background*/
 .intro:before {
     background-color: #E9D7A71A;
-    bottom: -10rem;
+    bottom: 0rem;
     content: '';
     left: 75rem;
     position: absolute;
@@ -71,8 +71,8 @@ main {
 }
 
 .counter__desc {
-    font-size: 1.5rem;
-    margin-left: 6rem;
+    font-size: 1.8rem;
+    margin-left: 4rem;
 }
 
 .intro--right {
