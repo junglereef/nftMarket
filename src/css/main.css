@@ -143,9 +143,9 @@ main {
     font-family: 'Oxanium';
     font-size: 6rem;
     font-weight: 700;
+    left: 40rem;
     line-height: 14rem;
     position: absolute;
-    left: 40rem;
 }
 
 .creators__subtitle,
@@ -172,24 +172,24 @@ main {
     background: linear-gradient(#8613A5, #8613A5) bottom/2px 50%, #8613A5;
     border-radius: 50%;
     content: "";
+    display: none;
     height: 10rem;
     left: 40rem;
     position: absolute;
     top: 98rem;
     width: 10rem;
     z-index: -1;
-    display: none;
 }
 
 .logos {
-    max-width: 100vw;
     margin: 10px 17px 14px 18px;
+    max-width: 100vw;
 }
 
 .logos div{
-    gap:60px;
     align-items: center;
     display: flex;
+    gap:60px;
     justify-content: space-around;
 }
 
@@ -778,7 +778,7 @@ footer {
 
 }
 
-@media (max-width: 1279px) and (min-width: 601px) {
+@media (max-width: 1000px) and (min-width: 601px) {
     .intro:before {
         display: none
     }
