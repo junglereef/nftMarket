@@ -20,7 +20,7 @@ main {
 /*Intro Image Background*/
 .intro:before {
     background-color: #E9D7A71A;
-    bottom: 0rem;
+    bottom: -10rem;
     content: '';
     left: 75rem;
     position: absolute;
@@ -98,7 +98,7 @@ main {
 }
 
 .intro__flex-items img {
-    width: 36rem;
+    width: 70%;
 }
 
 .line-break {
@@ -632,9 +632,9 @@ footer {
         flex-direction: column;
     }
 
-    .intro__flex-items img {
-        width: 100%;
-    }
+    /* .intro__flex-items img {
+        width: 70%;
+    } */
 
     .counter-box {
         display: none;
@@ -790,9 +790,9 @@ footer {
         flex-direction: column;
     }
 
-    .intro__flex-items img {
-        width: 100%;
-    }
+    /* .intro__flex-items img {
+        width: 70%;
+    } */
 
     .counter-box {
         display: none;

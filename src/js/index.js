@@ -1,8 +1,6 @@
 function myFunction() {
-    var x = document.getElementById("nav-mobile");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+    const button = document.getElementById("nav-mobile");
+    
+    button.style.display === "block" ? button.style.display = "none" : button.style.display = "block";
+
+   }
