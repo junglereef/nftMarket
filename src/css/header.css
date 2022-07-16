@@ -157,7 +157,6 @@ button{
 
     .mobile-menu {
         display: contents;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 2rem;
@@ -215,10 +214,10 @@ button{
 
     .mobile-menu{
         display: contents;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 2rem;
+        
     }
     
     #nav-mobile{
