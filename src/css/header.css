@@ -1,4 +1,4 @@
-/* header styles */
+
 header {
     /* align-items: center;
     display: flex;
@@ -27,6 +27,7 @@ header {
 
 .top-menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -161,6 +162,8 @@ button{
 
     .mobile-menu {
         margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #nav-mobile > *{
@@ -170,7 +173,7 @@ button{
    
     .nav-mobile-item {
         display: block;
-        background: gray;
+        text-align: center;
     }
 
     .nav-mobile-item a {
@@ -216,17 +219,24 @@ button{
 
     .mobile-menu{
         margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         /* position: relative; */
         /* overflow: hidden; */
+        display: contents;
     }
     
     #nav-mobile{
-        display: none;
+        /* display: none; */
+        width: 100%;
+        /* display: contents; */
     }
 
     .nav-mobile-item {
         display: block;
         width: 100%;
+        text-align: center;
     }
 
     .nav-mobile-item a {

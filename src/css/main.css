@@ -632,9 +632,14 @@ footer {
         flex-direction: column;
     }
 
-    /* .intro__flex-items img {
-        width: 70%;
-    } */
+    .intro__flex-container {
+       
+        text-align: center;
+    } 
+
+    .intro__info--leftButtons {
+        margin-left: 10%;
+    }
 
     .counter-box {
         display: none;
@@ -788,6 +793,15 @@ footer {
 
     .intro {
         flex-direction: column;
+    }
+
+    .intro__flex-container {
+       
+        text-align: center;
+    } 
+
+    .intro__info--leftButtons {
+        margin-left: 10%;
     }
 
     /* .intro__flex-items img {
