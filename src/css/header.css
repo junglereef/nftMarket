@@ -94,6 +94,17 @@ button{
 
 @media (max-width: 600px) {
 
+    .contact-btn-mobile {
+        background: #E9D7A71A;
+        border: 1px solid #FFCE4E;
+        color: #FFCE4E;
+        font-family: 'Work Sans';
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 1rem;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
     #navigation, .contact-btn {
         display: none;
     }
@@ -160,6 +171,7 @@ button{
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 2rem;
+        text-align: center;
     }
 
     #nav-mobile{
@@ -194,6 +206,17 @@ button{
 
 @media (max-width: 1000px) and (min-width: 601px) {
 
+    .contact-btn-mobile {
+        background: #E9D7A71A;
+        border: 1px solid #FFCE4E;
+        color: #FFCE4E;
+        font-family: 'Work Sans';
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 1rem;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
     #navigation, .contact-btn {
         display: none;
     }
@@ -217,6 +240,7 @@ button{
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 2rem;
+        text-align: center;
         
     }
     
