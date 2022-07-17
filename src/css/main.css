@@ -6,7 +6,7 @@ main {
     height: 100%;
     padding: 3rem;
     text-align: center;
-    width: 100%;
+    width: auto;
     z-index: 0;
 }
 
@@ -678,10 +678,10 @@ footer {
         margin: 0;
     }
    
-    .logos div img:nth-child(1){
-        width: 130px;
+    .logos div img* {
+        width: 50rem;
     }
-
+/* 
     .logos div img:nth-child(2){
         width: 130px;
     }
@@ -692,7 +692,7 @@ footer {
 
     .logos div img:nth-child(4){
         width: 130px;
-    }
+    } */
     
 
     .cards__carrosel,
@@ -831,11 +831,11 @@ footer {
         margin: 0;
     }
    
-    .logos div img:nth-child(1){
-        width: 130px;
+    .logos div img  {
+        width: 50rem;
     }
 
-    .logos div img:nth-child(2){
+    /* .logos div img:nth-child(2){
         width: 130px;
     }
 
@@ -845,7 +845,7 @@ footer {
 
     .logos div img:nth-child(4){
         width: 130px;
-    }
+    } */
 
     .auctions__subtitle--text{
         position: relative;
